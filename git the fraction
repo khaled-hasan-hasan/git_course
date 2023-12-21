@@ -1,0 +1,20 @@
+
+
+
+
+
+
+#include <iostream>
+using namespace std;
+int main(){
+   double n1,n2;
+   cin>>n1>>n2;
+   double divide=n1/n2;
+
+   cout<<divide-int(divide)<<"\n";
+
+
+
+    return 0;
+
+}
